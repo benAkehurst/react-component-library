@@ -5,6 +5,5 @@ export default create({
   // Typography
   fontBase: '"Raleway", sans-serif',
   fontCode: 'monospace',
-
-  brandTitle: 'Storybook',
+  brandTitle: 'React Components Storybook',
 });
