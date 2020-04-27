@@ -1,0 +1,17 @@
+.SearchInputWrapper {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.LabelWrapper {
+}
+
+.InputElementsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

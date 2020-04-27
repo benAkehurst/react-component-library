@@ -1,0 +1,73 @@
+.Button {
+  font-family: 'Raleway', sans-serif;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button:hover {
+  cursor: pointer;
+  border: 1px solid #838383;
+}
+
+.Button:focus,
+.Button:active {
+  outline: none;
+}
+
+.Button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.small {
+  width: 6rem;
+  height: 1.5rem;
+  font-size: 0.5rem;
+}
+
+.medium {
+  width: 8rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.large {
+  width: 12rem;
+  height: 3rem;
+  font-size: 1.2rem;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.shadow {
+  box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.success {
+  color: white;
+  background-color: #57e23b;
+  border: 1px solid #4ac432;
+}
+
+.error {
+  color: white;
+  background-color: #d42f2f;
+  border: 1px solid #b11414;
+}
+
+.black {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.white {
+  background-color: white;
+  border: 1px solid #ececec;
+}

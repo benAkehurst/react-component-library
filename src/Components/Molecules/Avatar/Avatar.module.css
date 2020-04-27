@@ -1,0 +1,38 @@
+.Avatar {
+  font-family: 'Raleway', sans-serif;
+}
+
+.small {
+  width: 4rem;
+  height: 4rem;
+}
+
+.medium {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.large {
+  width: 5rem;
+  height: 5rem;
+}
+
+.Avatar > .ImageWrapper {
+  width: inherit;
+  height: inherit;
+  box-sizing: border-box;
+  display: block;
+}
+
+.Avatar > .ImageWrapper > img {
+  max-height: 100%;
+}
+
+.Avatar > .LabelWrapper {
+  width: inherit;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

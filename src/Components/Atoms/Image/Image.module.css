@@ -1,0 +1,26 @@
+.Image {
+  font-family: 'Raleway', sans-serif;
+}
+
+.rounded {
+  border-radius: 25%;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.small {
+  width: 10rem;
+  height: 10rem;
+}
+
+.medium {
+  width: 20rem;
+  height: 20rem;
+}
+
+.large {
+  width: 30rem;
+  height: 30rem;
+}
