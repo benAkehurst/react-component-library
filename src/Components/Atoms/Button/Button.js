@@ -1,17 +1,8 @@
 import React from 'react';
 import classes from './Button.module.css';
+import PropTypes from 'prop-types';
 
 import Aux from '../../../hoc/Aux';
-
-/**
- * Props:
- * size - 'small' | 'medium' | 'large'
- * disabled - true | false
- * corners - 'rounded'
- * shadow - 'shadow'
- * buttonType - 'success' | 'error' | 'basic' | 'black' | 'white'
- * clicked - If true, gets an event to fire when the button is clicked
- */
 
 const button = (props) => {
   return (
@@ -35,6 +26,33 @@ const button = (props) => {
       </button>
     </Aux>
   );
+};
+
+button.propTypes = {
+  size: PropTypes.string,
+  /**
+   'small' | 'medium' | 'large'
+  */
+  disabled: PropTypes.bool,
+  /**
+   If `true`, the button is disabled
+  */
+  corners: PropTypes.string,
+  /**
+   'rounded'
+  */
+  shadow: PropTypes.string,
+  /**
+   'shadow'
+  */
+  buttonType: PropTypes.string,
+  /**
+   'success' | 'error' | 'basic' | 'black' | 'white'
+  */
+  clicked: PropTypes.bool,
+  /**
+   If `true`, gets an event to fire when the button is clicked
+  */
 };
 
 export default button;
