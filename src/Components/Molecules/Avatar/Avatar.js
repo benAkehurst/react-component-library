@@ -1,19 +1,11 @@
 import React, { Component } from 'react';
 import classes from './Avatar.module.css';
+import PropTypes from 'prop-types';
 
 import Aux from '../../../hoc/Aux';
 
 import Image from '../../Atoms/Image/Image';
 import Label from '../../Atoms/Label/Label';
-
-/**
- * Props:
- * size - defines the avatar size
- * imageLink - A link to the umage to show
- * imageAltText - Alt text for the image
- * imageShape - What shape the image will be - default is square
- * labelText - Text that is shown under the image
- */
 
 class Avatar extends Component {
   render() {
@@ -37,5 +29,28 @@ class Avatar extends Component {
     );
   }
 }
+
+Avatar.propTypes = {
+  size: PropTypes.string,
+  /**
+   'small' | 'medium' | 'large'
+  */
+  imageLink: PropTypes.string,
+  /**
+   A link to the image to show
+  */
+  imageAltText: PropTypes.string,
+  /**
+   Alt text for the image
+  */
+  imageShape: PropTypes.string,
+  /**
+   What shape the image will be - default is square
+  */
+  labelText: PropTypes.string,
+  /**
+   Text that is shown under the image
+  */
+};
 
 export default Avatar;

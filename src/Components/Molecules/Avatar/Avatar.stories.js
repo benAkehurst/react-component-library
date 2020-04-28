@@ -19,11 +19,11 @@ export const ImageMedium = () => <Avatar {...avatarData} size={'medium'} />;
 export const ImageLarge = () => <Avatar {...avatarData} size={'large'} />;
 
 export const ImageTextSmall = () => (
-  <Avatar {...avatarData} size={'small'} labelText={'Storybook Name'} />
+  <Avatar {...avatarData} size={'small'} labelText={'Cool Name'} />
 );
 export const ImageTextMedium = () => (
-  <Avatar {...avatarData} size={'medium'} labelText={'Storybook Name'} />
+  <Avatar {...avatarData} size={'medium'} labelText={'Cool Name'} />
 );
 export const ImageTextLarge = () => (
-  <Avatar {...avatarData} size={'large'} labelText={'Storybook Name'} />
+  <Avatar {...avatarData} size={'large'} labelText={'Cool Name'} />
 );
