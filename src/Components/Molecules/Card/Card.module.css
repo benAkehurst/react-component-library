@@ -1,2 +1,56 @@
 .Card {
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid #eee;
+  box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  width: 20rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small {
+  width: 10rem;
+  height: 15rem;
+}
+
+.medium {
+  width: 15rem;
+  height: 20rem;
+}
+
+.large {
+  width: 20rem;
+  height: 25rem;
+}
+
+.Card > .ImageWrapper {
+  width: inherit;
+  height: inherit;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1rem;
+  max-height: 65%;
+}
+
+.Card > .ImageWrapper > img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.Card > .TextWrapper {
+  box-sizing: border-box;
+  padding-top: 1rem;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.Card > .ButtonWrapper {
+  box-sizing: border-box;
+  padding-top: 1rem;
+  max-width: 80%;
+  max-height: 80%;
 }
