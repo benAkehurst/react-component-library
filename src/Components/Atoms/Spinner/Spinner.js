@@ -1,13 +1,8 @@
 import React from 'react';
 import classes from './Spinner.module.css';
+import PropTypes from 'prop-types';
 
 import Aux from '../../../hoc/Aux';
-
-/**
- * Props:
- * size - 'small' | 'medium' | 'large'
- * color - 'success' | 'error' | 'black' | 'basic'
- */
 
 const spinner = (props) => {
   return (
@@ -23,6 +18,17 @@ const spinner = (props) => {
       </div>
     </Aux>
   );
+};
+
+spinner.propTypes = {
+  color: PropTypes.string,
+  /**
+   'small' | 'medium' | 'large'
+  */
+  size: PropTypes.string,
+  /**
+   'small' | 'medium' | 'large'
+  */
 };
 
 export default spinner;

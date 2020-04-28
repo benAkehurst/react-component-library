@@ -1,14 +1,8 @@
 import React from 'react';
 import classes from './Link.module.css';
+import PropTypes from 'prop-types';
 
 import Aux from '../../../hoc/Aux';
-
-/**
- * Props:
- * noStyles - 'noStyles' - will render the link with no underline and black color
- * link - a url to link to
- * linkText - what the url should display to the user as
- */
 
 const link = (props) => {
   return (
@@ -21,6 +15,21 @@ const link = (props) => {
       </a>
     </Aux>
   );
+};
+
+link.propTypes = {
+  noStyles: PropTypes.string,
+  /**
+   'noStyles' - will render the link with no underline and black color
+  */
+  link: PropTypes.string,
+  /**
+   a url to link to
+  */
+  linkText: PropTypes.string,
+  /**
+   what the url should display to the user as
+  */
 };
 
 export default link;

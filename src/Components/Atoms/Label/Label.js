@@ -1,13 +1,8 @@
 import React from 'react';
 import classes from './Label.module.css';
+import PropTypes from 'prop-types';
 
 import Aux from '../../../hoc/Aux';
-
-/**
- * Props:
- * for - needs to be the name of an input the label needs to have
- * size - 'small' | 'medium' | 'large'
- */
 
 const label = (props) => {
   return (
@@ -20,6 +15,17 @@ const label = (props) => {
       </label>
     </Aux>
   );
+};
+
+label.propTypes = {
+  for: PropTypes.string,
+  /**
+   needs to be the name of an input the label needs to have
+  */
+  size: PropTypes.string,
+  /**
+   'small' | 'medium' | 'large'
+  */
 };
 
 export default label;
