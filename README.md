@@ -37,9 +37,8 @@ This repo will act as a design system of Components that I have built while lear
 ## Installation and Use
 
 1. Clone the repo - `https://github.com/benAkehurst/react-component-library.git`
-2. `cd storybook`
-3. `npm i`
-4. `npm run storybook`
+2. `npm i`
+3. `npm run storybook`
 
 This will launch the storybook instance. Happy hacking.
 
