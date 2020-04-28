@@ -49,7 +49,7 @@ button.propTypes = {
   /**
    'success' | 'error' | 'basic' | 'black' | 'white'
   */
-  clicked: PropTypes.bool,
+  clicked: PropTypes.func,
   /**
    If `true`, gets an event to fire when the button is clicked
   */
