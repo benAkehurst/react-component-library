@@ -31,7 +31,7 @@ This repo will act as a design system of Components that I have built while lear
 ### Organisms
 
 - [Header Bar](https://github.com/benAkehurst/react-learning/tree/master/storybook/src/Components/Organisms/Header)
-- [Card Grid](https://github.com/benAkehurst/react-learning/tree/master/storybook/src/Components/Organisms/CardGrid)
+- [Auth Form](https://github.com/benAkehurst/react-learning/tree/master/storybook/src/Components/Organisms/AuthForm)
 - [Side Menu](https://github.com/benAkehurst/react-learning/tree/master/storybook/src/Components/Organisms/SideMenu)
 
 ## Installation and Use
