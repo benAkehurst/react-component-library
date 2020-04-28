@@ -1,0 +1,60 @@
+.HeaderWrapper {
+  width: 100%;
+  height: 6rem;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.HeaderWrapper.primary {
+  background-color: lightblue;
+}
+
+.HeaderWrapper.secondary {
+  background-color: lightsalmon;
+}
+
+.HeaderWrapper > .LogoWrapper {
+  height: inherit;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeaderWrapper > .LogoWrapper > img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.HeaderWrapper > .SearchWrapper {
+  height: inherit;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeaderWrapper > .AvatarWrapper {
+  height: inherit;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeaderWrapper > .LinkWrapper {
+  height: inherit;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

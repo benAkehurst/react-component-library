@@ -22,7 +22,7 @@ class SearchInput extends Component {
               size={'medium'}
               corners={'rounded'}
               shadow={'shadow'}
-              buttonType={'success'}
+              buttonType={'basic'}
             >
               Search
             </Button>
