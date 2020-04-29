@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import classes from './SideMenu.modules.css';
+import classes from './SideMenu.module.css';
 import PropTypes from 'prop-types';
 
 import Aux from '../../../hoc/Aux';
